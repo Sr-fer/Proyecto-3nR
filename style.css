@@ -1,0 +1,74 @@
+html {
+    font-family: 'Helvetica Neue';
+}
+body {
+    margin: 1%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap:1%
+}
+article {
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em;
+    text-align: center;
+    font-size: xx-large;
+    background-color: bisque;
+}
+article:nth-child(2) {
+    flex: 2;
+}
+
+#tablero{
+justify-content: center;
+width: 65%;
+height: 65%;
+margin: 10px;
+margin-left: 20%;
+display: grid;
+flex: 1;
+border-width: 1px;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1%;
+}
+
+#tablero div {
+    background: rgb(105, 68, 68);
+	width: 100%;
+}
+#fichas{
+    margin-left: 5%;
+    font-family: arial, verdana, sans-serif;
+}
+
+#tablero div:hover{
+	background: gray;
+}
+
+#jugadores{
+    margin-left: 5%;
+}
+#jugadora{
+    margin-right: 8%;
+    text-decoration: underline;
+}
+#jugadorb{
+    margin-left: 10%;
+    text-decoration: underline;
+}
+#table {
+    margin-left: 28%;
+    width: 50%;
+}
+#copyright{
+    margin-left: 5%;
+    font-family: "Times New Roman", serif; font-style: italic;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
