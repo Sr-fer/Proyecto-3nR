@@ -1,60 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Tres en raya</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<head>
-<body>
-<section> 
-<article>
-<hr>
-Instrucciones
-<hr>
-Debes alinear 3 de tus fichas de forma vertical u horizontal antes que tu rival para ganar
-</article>
-<article>
-<hr>
-Tres en raya
-<div id="tablero">
-<div id="box1" ></div>
-<div id="box2" ></div>
-<div id="box3" ></div>
-<div id="box4" ></div>
-<div id="box5" ></div>
-<div id="box6" ></div>
-<div id="box7" ></div>
-<div id="box8" ></div>
-<div id="box9" ></div>
-</div>
-<div id="fichas">Fichas</div>
-<div id="jugadores">
-<span id="jugadora">Jugador A</span>
-<span id="jugadorb">Jugador B</span>
-</div>
-<table id="table" border="1"></div>
-<tr>
-<th>Ficha 1</th>
-<th>Ficha 1</th>    
-</tr>
-<tr>
-<th>Ficha 2</th>
-<th>Ficha 2</th>    
-</tr>
-<tr>
-<th>Ficha 3</th>
-<th>Ficha 3</th>    
-</tr>
-</table>
-<div id="copyright">
-Copyright@
-</div>
-</article>
-<article>
-<hr>
-Historia
-<hr>
-Se remonta a la lejana Persia, hace casi miles de años, desde donde mercaderes italianos lo exportaron a sis tierras y lo extendieron.
-</article>
-</body>
+    <meta charset="utf-8">
+    <title>Tres en raya</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <head>
+
+    <body>
+        <section>
+            <article>
+                <hr>
+                Instrucciones
+                <hr>
+                Debes alinear 3 de tus fichas de forma vertical u horizontal antes que tu rival para ganar
+                <hr>
+                Empezará el: <turno id="turnoXO"></turno>
+            </article>
+            <article>
+                <hr>
+                Tres en raya
+                <div id="tablero">
+                    <div id="box1"></div>
+                    <div id="box2"></div>
+                    <div id="box3"></div>
+                    <div id="box4"></div>
+                    <div id="box5"></div>
+                    <div id="box6"></div>
+                    <div id="box7"></div>
+                    <div id="box8"></div>
+                    <div id="box9"></div>
+                </div>
+                <div id="fichas">Fichas</div>
+                <div id="jugadores">
+                    <span id="jugadora">Jugador A</span>
+                    <span id="jugadorb">Jugador B</span>
+                </div>
+                <table id="table" border="1">
+                    </div>
+                    <tr>
+                        <th>Ficha 1</th>
+                        <th>Ficha 1</th>
+                    </tr>
+                    <tr>
+                        <th>Ficha 2</th>
+                        <th>Ficha 2</th>
+                    </tr>
+                    <tr>
+                        <th>Ficha 3</th>
+                        <th>Ficha 3</th>
+                    </tr>
+                </table>
+                <div id="copyright">
+                    Copyright@
+                </div>
+            </article>
+            <article>
+                <hr>
+                Historia
+                <hr>
+                Se remonta a la lejana Persia, hace casi miles de años, desde donde mercaderes italianos lo exportaron a
+                sis tierras y lo extendieron.
+            </article>
+            <script src="turnos.js"></script>
+            <script src="fichaX.js"></script>
+            <script src="fichaO.js"></script>
+    </body>
+    <footer>
+        <script src="3nR.js"></script>
+    </footer>
+
 </html>
