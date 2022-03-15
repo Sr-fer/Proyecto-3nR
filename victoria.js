@@ -151,6 +151,7 @@ function comprobarVictoria(ficha1, ficha2, ficha3, ficha4, ficha5, ficha6, ficha
 function avisoVictoriaX() {
     let temporizador = setTimeout(avisoX, 300, "Resultado")
     $("#ganador").html("X")
+
 }
 
 function avisoX() {
@@ -161,7 +162,6 @@ function avisoX() {
 function avisoVictoriaO() {
 let temporizador = setTimeout(avisoO, 300, "Resultado")
 $("#ganador").html("O")
-
 }
 
 function avisoO() {
