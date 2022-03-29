@@ -157,11 +157,13 @@ function avisoVictoriaX() {
 function avisoX() {
     //alert(`Victoria de: X`)
     desactivarJuego()
+    banner_victoria.innerHTML = '<svg width="auto"height="100"><text x="0"y="70"style="font:bold 1.2em arial;fill:black;"viewBox="0 0 100 100">Ganaron las X<animate attributeType="XML"attributeName="x"from="-2030"to="1800"dur="7s"begin="0s"repeatCount="indefinite"/></text></svg>';
 }
 
 function avisoVictoriaO() {
-let temporizador = setTimeout(avisoO, 300, "Resultado")
-$("#ganador").html("O")
+    let temporizador = setTimeout(avisoO, 300, "Resultado")
+    $("#ganador").html("O")
+    banner_victoria.innerHTML = '<svg width="auto"height="100"><text x="0"y="70"style="font:bold 1.2em arial;fill:black;"viewBox="0 0 100 100">Ganaron los O<animate attributeType="XML"attributeName="x"from="-2030"to="1800"dur="7s"begin="0s"repeatCount="indefinite"/></text></svg>';
 }
 
 function avisoO() {

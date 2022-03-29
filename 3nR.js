@@ -11,7 +11,7 @@ function main() {
     let ficha7 = ""
     let ficha8 = ""
     let ficha9 = ""
-
+    banner_victoria = document.getElementById("animacion_victoria")
 
     if (ultimo_turno == 1) {
         $("#turnoXO").html("X")

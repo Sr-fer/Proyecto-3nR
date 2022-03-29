@@ -5,4 +5,5 @@ function fichaX() {
     img.style.width = "50%"
     ultimo_turno = -1
     return (img)
+
 }
